@@ -81,4 +81,4 @@ jobs:
       if: always()
       with:
         name: rails-log-folder
-        path: log
+        path: ./
