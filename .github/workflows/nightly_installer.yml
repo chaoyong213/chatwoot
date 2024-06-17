@@ -49,4 +49,5 @@ jobs:
       if: always()
       with:
         name: chatwoot-setup-log-file
-        path: /var/log/chatwoot-setup.log
+        # path: /var/log/chatwoot-setup.log
+        path: ./
